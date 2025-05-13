@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Features - FilterForce</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand">FilterForce</div>
+        <div class="nav-links">
+            <a href="/">Home</a>
+            <a href="/features" class="active">Features</a>
+            <a href="/about">About</a>
+            <a href="/contact">Contact</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <section class="features-section" data-aos="fade-up">
+            <h1>Advanced Features</h1>
+            <p class="lead">Discover the powerful capabilities of FilterForce</p>
+
+            <div class="features-grid">
+                <div class="feature-card" data-aos="fade-up">
+                    <div class="feature-icon">🔍</div>
+                    <h3>Real-time Analysis</h3>
+                    <p>Instant email content analysis with immediate spam detection results.</p>
+                </div>
+
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature-icon">🤖</div>
+                    <h3>Machine Learning</h3>
+                    <p>Advanced ML algorithms that learn and adapt to new spam patterns.</p>
+                </div>
+
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-icon">📊</div>
+                    <h3>Detailed Analytics</h3>
+                    <p>Comprehensive statistics and insights about detected spam.</p>
+                </div>
+
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="feature-icon">🔄</div>
+                    <h3>Custom Training</h3>
+                    <p>Train the model with your own dataset for personalized detection.</p>
+                </div>
+
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="feature-icon">🔒</div>
+                    <h3>Secure Processing</h3>
+                    <p>All email content is processed securely with privacy in mind.</p>
+                </div>
+
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="feature-icon">📱</div>
+                    <h3>Responsive Design</h3>
+                    <p>Beautiful and intuitive interface that works on all devices.</p>
+                </div>
+            </div>
+
+            <div class="feature-details">
+                <div class="feature-detail-card" data-aos="fade-right">
+                    <h2>How It Works</h2>
+                    <ol>
+                        <li>Upload or paste email content</li>
+                        <li>Our ML model analyzes the text</li>
+                        <li>Get instant spam detection results</li>
+                        <li>View detailed confidence scores</li>
+                        <li>Train the model with new data</li>
+                    </ol>
+                </div>
+
+                <div class="feature-detail-card" data-aos="fade-left">
+                    <h2>Technical Specifications</h2>
+                    <ul>
+                        <li>Natural Language Processing</li>
+                        <li>Supervised Machine Learning</li>
+                        <li>Real-time Processing</li>
+                        <li>High Accuracy Detection</li>
+                        <li>Customizable Training</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>FilterForce</h3>
+                <p>Advanced spam detection powered by machine learning.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <a href="/">Home</a>
+                <a href="/features">Features</a>
+                <a href="/about">About</a>
+                <a href="/contact">Contact</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 FilterForce. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    </script>
+</body>
+</html> 

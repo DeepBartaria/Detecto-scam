@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About FilterForce - Advanced Spam Detection</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand">FilterForce</div>
+        <div class="nav-links">
+            <a href="/">Home</a>
+            <a href="/features">Features</a>
+            <a href="/about" class="active">About</a>
+            <a href="/contact">Contact</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <section class="about-section" data-aos="fade-up">
+            <h1>About FilterForce</h1>
+            <p class="lead">Your trusted partner in email security and spam detection.</p>
+            
+            <div class="about-content">
+                <div class="about-card" data-aos="fade-right">
+                    <h2>Our Mission</h2>
+                    <p>At FilterForce, we're dedicated to making email communication safer and more efficient. Our advanced spam detection system uses cutting-edge machine learning technology to protect users from unwanted and potentially harmful emails.</p>
+                </div>
+
+                <div class="about-card" data-aos="fade-left">
+                    <h2>Technology</h2>
+                    <p>We leverage state-of-the-art natural language processing and machine learning algorithms to analyze email content with high accuracy. Our system continuously learns and adapts to new spam patterns, ensuring robust protection against evolving threats.</p>
+                </div>
+
+                <div class="about-card" data-aos="fade-right">
+                    <h2>Key Features</h2>
+                    <ul>
+                        <li>Real-time email analysis</li>
+                        <li>High accuracy spam detection</li>
+                        <li>Customizable training data</li>
+                        <li>Detailed analysis reports</li>
+                        <li>User-friendly interface</li>
+                    </ul>
+                </div>
+
+                <div class="about-card" data-aos="fade-left">
+                    <h2>Our Team</h2>
+                    <p>We are a team of passionate developers and data scientists committed to creating innovative solutions for email security. Our expertise in machine learning and web development allows us to deliver a powerful and user-friendly spam detection system.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>FilterForce</h3>
+                <p>Advanced spam detection powered by machine learning.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <a href="/">Home</a>
+                <a href="/features">Features</a>
+                <a href="/about">About</a>
+                <a href="/contact">Contact</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 FilterForce. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    </script>
+</body>
+</html> 
